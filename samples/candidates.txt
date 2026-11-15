@@ -1,0 +1,12 @@
+# Fictional candidate domains to test against --brand mybank.co.za
+mybank.co.za
+online.mybank.co.za
+mybnak.co.za
+myb4nk.co.za
+rnybank.co.za
+xn--mybnk-6ve.co.za
+mybank.com
+mybank-secure-login.com
+mybank.co.za.verify-account.net
+mybankrewards.co.za
+capetownhiking.org.za
